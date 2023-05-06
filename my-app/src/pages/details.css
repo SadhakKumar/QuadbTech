@@ -1,0 +1,49 @@
+
+.details_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;  
+    
+    border-radius: 20px;
+    
+}
+.details{
+    /* width: 700px; */
+    height: 100%;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    background-color: black;
+    border-radius: 20px;
+}
+.genres{
+    display: inline;
+    color: aliceblue;
+    
+}
+.btn-details{
+    size: 10px;
+}
+.details_image{
+    height: 400px;
+  width: 300px;
+  object-fit: cover;
+}
+.summary{
+    margin: 20px 20px;
+    text-align: center;
+    color: aliceblue;
+}
+.heading{
+    margin-top: 20px;
+    text-shadow: 1px 1px white;
+    color: aliceblue;
+}
+.details_button{
+    margin: 20px;
+}
+.details_rating{
+    color: aliceblue;
+}

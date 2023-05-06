@@ -1,0 +1,29 @@
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie_container{
+    height: 500px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.movie_container:hover{
+    background-color: rgb(208, 208, 208);
+}
+.btn{
+    width: 150px;
+    margin: 10px;
+
+}
+.show_image{
+    border-radius: 5px;
+}
